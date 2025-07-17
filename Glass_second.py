@@ -8,13 +8,13 @@ from tkinter import ttk
 def show_message():
     label["text"] = ent1.get(), ent2.get(), ent3.get(), ent4.get(), ent5.get(),ent6.get(), ent7.get(), ent8.get(), ent9.get(), ent10.get(), delta_h_star_ent.get(), x_ent.get(), beta_ent.get()
 
-    variable_list = [ent1.get(), ent2.get(), ent3.get(), ent4.get(), ent5.get(), ent6.get(), ent7.get(), ent8.get(), ent9.get(), ent10.get(), delta_h_star_ent.get(), x_ent.get(), beta_ent.get()]
+    #variable_list = [ent1.get(), ent2.get(), ent3.get(), ent4.get(), ent5.get(), ent6.get(), ent7.get(), ent8.get(), ent9.get(), ent10.get(), delta_h_star_ent.get(), x_ent.get(), beta_ent.get()]
 
-    empty_list=[]
-    for i in variable_list:
-        if i == None:
-            print(i)
-    label["text"]="Please complete these enterys:", empty_list
+    #empty_list=[]
+    #for i in variable_list:
+    #   if i == None:
+    #        print(i)
+    #label["text"]="Please complete these enterys:", empty_list Надо убрать наверно
             
      
     # === Physical Constants ===
